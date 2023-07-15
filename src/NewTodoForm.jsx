@@ -9,9 +9,9 @@ export const NewTodoForm = ({ onSubmit }) => {
     if (newItem === '') return
 
     onSubmit(newItem)
-
     setNewItem('')
   }
+
   return (
     <form onSubmit={handleSubmit} className="new-item-form" action="">
       <div className="form-row">
